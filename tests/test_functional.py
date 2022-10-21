@@ -3,9 +3,9 @@ from distutils.version import LooseVersion
 import numpy
 import pytest
 
-import torch
-import torch_complex.functional as F
-from torch_complex.tensor import ComplexTensor
+import oneflow as torch
+import oneflow_complex.functional as F
+from oneflow_complex.tensor import ComplexTensor
 
 
 def _get_complex_array(*shape):

@@ -3,14 +3,14 @@ import functools
 from typing import Sequence
 from typing import Union
 
-import torch
-from torch.nn import functional as F
+import oneflow as torch
+from oneflow.nn import functional as F
 
-from torch_complex.tensor import ComplexTensor
-from torch_complex.utils import complex_matrix2real_matrix
-from torch_complex.utils import complex_vector2real_vector
-from torch_complex.utils import real_matrix2complex_matrix
-from torch_complex.utils import real_vector2complex_vector
+from oneflow_complex.tensor import ComplexTensor
+from oneflow_complex.utils import complex_matrix2real_matrix
+from oneflow_complex.utils import complex_vector2real_vector
+from oneflow_complex.utils import real_matrix2complex_matrix
+from oneflow_complex.utils import real_vector2complex_vector
 
 
 __all__ = [

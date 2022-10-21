@@ -3,7 +3,7 @@ import operator
 import numpy
 import pytest
 
-from torch_complex.tensor import ComplexTensor
+from oneflow_complex.tensor import ComplexTensor
 
 
 def _get_complex_array(*shape):

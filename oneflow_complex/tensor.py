@@ -2,7 +2,7 @@ import numbers
 from typing import Union, List
 
 import numpy
-import torch
+import oneflow as torch
 
 
 __all__ = ["ComplexTensor"]

@@ -1,6 +1,6 @@
-import torch
+import oneflow as torch
 
-from torch_complex.tensor import ComplexTensor
+from oneflow_complex.tensor import ComplexTensor
 
 
 def complex_matrix2real_matrix(c: ComplexTensor) -> torch.Tensor:
